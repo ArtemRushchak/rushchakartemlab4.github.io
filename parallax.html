@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<style type="text/css">
+		.parallax {
+			background-image: url(https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg);
+			height: 1000px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		@media only screen (max-device-width: 700px) {
+			.parallax {
+				background-attachment: inherit;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="parallax"></div>
+
+</body>
+</html>

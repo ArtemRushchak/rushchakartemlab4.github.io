@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	 <title>Flex</title>
+	 <style type="text/css">
+
+	 	 @media (max-width: 768px) {
+	 		#boxcontainer {
+	 			flex-direction: column;
+	 		}
+	 	}
+
+	 	 @media (max-width: 768px) {
+	 		.orangebox1 {
+	 			width: 73vw;
+	 			margin-bottom: 50px;
+	 		}
+	 	}
+
+	 	@media (max-width: 768px) {
+	 		.orangebox2 {
+	 			width: 73vw;
+	 			margin-bottom: 50px;
+	 		}
+	 	}
+
+		 #navbar {
+	  		 display: flex; 
+  			 height: 75px;
+  			 background-color: royalblue;
+  			 justify-content: flex-end;
+		 }
+
+		 .ul {
+  			display: flex;
+  			list-style-type: none;
+  			font-size: 19px;
+  			margin: 0px; 
+		}
+
+		 li {
+  			margin: 20px;
+		 }
+
+		 .navn {
+		 	margin-right: 840px;
+		 	font-size: 25px;
+		 }
+
+		 .home {
+		 	border: 1px solid black;
+		 	border-radius: 10px;
+		 	padding: 3px;
+		 }
+
+		 li a {
+		 	color: black;
+		 	text-decoration: none;
+		 } 
+
+		 #header {
+  			 display: flex;
+  			 height: 400px;
+  			 background: url(https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Nine%2BInch%2BNails/Nine%2520Inch%2520Nails_16_9_1604502909.jpg?itok=5M09O-B-) no-repeat center center;
+  			 background-size: cover;
+  			 flex-direction: column;
+  			 align-items: center;
+		 }
+
+		 .f1 {
+		 	font-size: 17px;
+		 	font-style: oblique;
+		 	margin-top: 100px;
+		 	margin-bottom: 0px;
+		 }
+
+		 .f2 {
+		 	font-size: 40px;
+		 	font-weight: 150;
+		 	margin-top: 4px;
+		 	margin-bottom: 4px;
+		 }
+
+		 .f3 {
+		 	font-size: 17px;
+		 	font-style: oblique;
+		 	margin-top: 5px;
+		 	color: black;
+		 	text-decoration: none;
+		 	border: 1px solid gray;
+		 	background-color: gray;
+		 	text-transform: uppercase;
+		 	letter-spacing: 1px;
+		 	border-radius: 10px;
+		 	box-shadow: 0 0 20px rgba(0, 0, 0, .1)
+
+		 }
+
+		 #mainsection {
+			 display: flex;
+			 height: 500px;
+			 background-color: gray;
+			 margin-left: 100px;
+			 margin-right: 100px;
+			 margin-top: 75px;
+			 margin-bottom: 75px;
+			 flex-direction: column;
+		 }
+
+		 .yellowparagraph {
+			 height: 200px;
+			 width: 100%;
+			 background-color: khaki;
+			 margin-bottom: 75px;
+			 text-align: center;
+		 }
+
+		 .fy {
+		 	font-size: 19px;
+		 	margin-left: 150px;
+		 	margin-right: 150px;
+		 }
+
+		 #boxcontainer {
+			 display: flex;
+			 justify-content: space-between;
+		 }
+
+		 .orangebox1 {
+			 height: 225px;
+			 width: 48%;
+			 background-color: tomato;
+			 text-align: center;
+		 }
+
+		 .or1f {
+		 	font-size: 17px;
+		 	margin-right: 75px;
+		 	margin-left: 75px; 
+		 }
+
+		 .orangebox2 {
+			 height: 225px;
+			 width: 48%;
+			 background-color: tomato;
+			 text-align: center;
+		 }
+
+		 .or2f {
+		 	font-size: 17px;
+		 	margin-right: 75px;
+		 	margin-left: 75px; 
+		 }
+
+		 #prefooter {
+			 display: flex;
+			 height: 40px;
+			 background-color: silver;
+			 align-items: center;
+			 justify-content: center;
+		 }
+
+		 .pf {
+		 	font-style: italic;
+		 	padding-bottom: 5px;
+		 }
+
+		 #footer {
+			 display: flex;
+			 height: 100px;
+			 background-color: black;
+			 align-items: center;
+			 justify-content: center;
+		 }
+
+		 .footr {
+		 	font-style: italic;
+		 	padding-bottom: 5px;
+		 	color: grey;
+		 }
+
+	 </style>
+ </head>
+ <body>
+
+	 <div id="navbar">
+	 	<ul class="ul">
+	 		<li class="navn"><a href="#">Music portal</a></li>
+	 		<li><a href="#" class="home">Home</a></li>
+	 		<li><a href="#">Upcoming events</a></li>
+	 		<li><a href="#">Concerts</a></li>
+	 		<li><a href="#">Albums</a></li>
+	 	</ul>
+	 </div>
+	 <div id="header">
+	 	<p class="f1">fan group of</p>
+	 	<p class="f2">Metal</p>
+	 	<p class="f3">listen</p>
+	 </div>
+	 <div id="mainsection">
+		 <div class="yellowparagraph">
+		 	<h2>Become a metal fan with us</h2>
+		 	<p class="fy">Become friends with other metal fans. Discover new music with your current friends and get them into metal with you. Make an effort to meet people at shows or record stores who are also into metal music. Telling someone you like the band on their shirt is a great way to strike up a conversation.</p>
+		 </div>
+		 <div id="boxcontainer">
+			 <div class="orangebox1">
+			 	<h3>About</h3>
+		 		<p class="or1f">We're just a fans of a metal ganre music. Here you can find different links to bands albums and fresh singles. Also you can find a links to bands clips and other.</p>
+			 </div>
+			 <div class="orangebox2">
+			 	<h3>Participate</h3>
+			 	<p class="or2f">Have fun at concerts, take a part in them.</p>
+			 </div>
+		 </div> 
+	 </div>
+	 <div id="prefooter">
+	 	<h3 class="pf">Listen</h3>
+	 </div>
+	 <div id="footer">
+	 	<p class="footr">&copy; 2020 All rights reserved</p>
+	 </div>
+
+ </body>
+</html>
